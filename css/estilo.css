@@ -1,3 +1,9 @@
+body {
+  font-family: "Roboto Flex", sans-serif;
+  background-image: url(https://img.freepik.com/foto-gratis/muro-hormigon-gris_53876-88973.jpg?t=st=1652292481~exp=1652293081~hmac=8d4925b971745e18647f3d0d31eff33478563701455c126d7c1d838ac4214cbe&w=1060);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
 header {
   padding: 0 20px; }
   header .navbar-nav {
@@ -250,9 +256,4 @@ footer {
           align-content: center auto;
           justify-content: center auto; } }
       
-      body {
-        font-family: "Roboto Flex", sans-serif;
-        background-image: url(https://img.freepik.com/foto-gratis/muro-hormigon-gris_53876-88973.jpg?t=st=1652292481~exp=1652293081~hmac=8d4925b971745e18647f3d0d31eff33478563701455c126d7c1d838ac4214cbe&w=1060);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed; }
+     
