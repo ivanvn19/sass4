@@ -116,84 +116,6 @@ footer {
     color: black;
     align-content: center; }
 
-@media screen and (max-width: 768px) {
-  .contenedor {
-    grid-template-areas: "section1"
- "aside "
- "footer";
-    grid-template-columns: 3fr;
-    grid-row: 5fr 5fr 1fr; }
-    .contenedor .section1 .titulocd {
-      width: 400px;
-      align-content: center  auto;
-      align-items: center auto;
-      justify-content: center auto; }
-    .contenedor .section1 .colecciondestacadados {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      align-content: center;
-      align-items: center;
-      justify-content: center auto; }
-      .contenedor .section1 .colecciondestacadados img {
-        width: 350px;
-        margin-top: 0.7rem;
-        margin-left: 1rem;
-        align-items: center;
-        justify-content: space-around;
-        transition: all 500ms ease; }
-        .contenedor .section1 .colecciondestacadados img:hover {
-          transform: scale(1.2); }
-    .contenedor .colecciondestacada img {
-      display: none; }
-  .aside {
-    margin-left: 10rem; }
-  .coleccionny {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around; }
-  .refcolection {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around; } }
-
-@media screen and (max-width: 320px) {
-  .contenedor {
-    grid-template-areas: "section1"
- "aside "
- "footer";
-    grid-template-columns: 3fr;
-    grid-row: 5fr 5fr 1fr; }
-  .coleccionny {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    align-content: center;
-    justify-content: center; }
-  .card img {
-    width: 150px;
-    align-items: center auto;
-    align-content: center auto;
-    justify-content: center auto; }
-  .card .card-body {
-    align-items: center auto;
-    align-content: center auto;
-    justify-content: center auto; } }
-
-body {
-  font-family: "Roboto Flex", sans-serif;
-  background-image: url(https://img.freepik.com/foto-gratis/muro-hormigon-gris_53876-88973.jpg?t=st=1652292481~exp=1652293081~hmac=8d4925b971745e18647f3d0d31eff33478563701455c126d7c1d838ac4214cbe&w=1060);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed; }
-
 .coleccionny {
   display: flex;
   flex-direction: row;
@@ -257,3 +179,80 @@ body {
     .galeriaNOA img:hover {
       opacity: .7;
       border: solid yellow 2px; }
+      @media screen and (max-width: 768px) {
+        .contenedor {
+          grid-template-areas: "section1"
+       "aside "
+       "footer";
+          grid-template-columns: 3fr;
+          grid-row: 5fr 5fr 1fr; }
+          .contenedor .section1 .titulocd {
+            width: 400px;
+            align-content: center  auto;
+            align-items: center auto;
+            justify-content: center auto; }
+          .contenedor .section1 .colecciondestacadados {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            align-items: center;
+            justify-content: center auto; }
+            .contenedor .section1 .colecciondestacadados img {
+              width: 350px;
+              margin-top: 0.7rem;
+              margin-left: 1rem;
+              align-items: center;
+              justify-content: space-around;
+              transition: all 500ms ease; }
+              .contenedor .section1 .colecciondestacadados img:hover {
+                transform: scale(1.2); }
+          .contenedor .colecciondestacada img {
+            display: none; }
+        .aside {
+          margin-left: 10rem; }
+        .coleccionny {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: space-around; }
+        .refcolection {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: space-around; } }
+      
+      @media screen and (max-width: 320px) {
+        .contenedor {
+          grid-template-areas: "section1"
+       "aside "
+       "footer";
+          grid-template-columns: 3fr;
+          grid-row: 5fr 5fr 1fr; }
+        .coleccionny {
+          height: 100%;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          align-items: center;
+          align-content: center;
+          justify-content: center; }
+        .card img {
+          width: 150px;
+          align-items: center auto;
+          align-content: center auto;
+          justify-content: center auto; }
+        .card .card-body {
+          align-items: center auto;
+          align-content: center auto;
+          justify-content: center auto; } }
+      
+      body {
+        font-family: "Roboto Flex", sans-serif;
+        background-image: url(https://img.freepik.com/foto-gratis/muro-hormigon-gris_53876-88973.jpg?t=st=1652292481~exp=1652293081~hmac=8d4925b971745e18647f3d0d31eff33478563701455c126d7c1d838ac4214cbe&w=1060);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed; }
