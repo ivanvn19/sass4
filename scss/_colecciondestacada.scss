@@ -1,0 +1,16 @@
+.coleccionny{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: left;
+    align-content: flex-start;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+    img{
+        width: 200px;
+        transition: all 500ms ease;
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+}

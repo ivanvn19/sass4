@@ -1,0 +1,100 @@
+@media screen and (max-width:768px){ 
+    .contenedor {
+        grid-template-areas:
+        "section1"
+        "aside "
+        "footer";
+        grid-template-columns: 3fr;
+        grid-row:  5fr 5fr 1fr;
+
+        .section1{ 
+            .titulocd{
+                width: 400px;
+                align-content: center  auto;
+                align-items: center auto;
+                justify-content: center auto;
+            } 
+            .colecciondestacadados {
+                display: flex;
+                flex-direction: column;
+                flex-wrap:wrap;
+                align-content: center;
+                align-items: center;
+                justify-content: center auto;
+                img{ 
+                    width: 350px;
+                    margin-top: 0.7rem;
+                    margin-left: 1rem;
+                    align-items: center ;
+                    justify-content: space-around;
+                    transition: all 500ms ease;
+                    &:hover{
+                        transform: scale(1.2);
+                    }
+                }    
+            }
+        }
+            .colecciondestacada{
+                img{ 
+                    display: none;
+                }
+        }
+    }
+    .aside{ 
+        margin-left: 10rem;
+        
+      }
+    
+    .coleccionny{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .refcolection{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    
+    
+}
+
+@media screen and (max-width:320px) {
+    .contenedor {
+        grid-template-areas:
+        "section1"
+        "aside "
+        "footer";
+        grid-template-columns: 3fr;
+        grid-row:  5fr 5fr 1fr;
+    }
+    .coleccionny{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .card{
+        img{
+            width: 150px;
+            align-items: center auto;
+            align-content: center auto;
+            justify-content: center auto;
+        }
+        .card-body{
+            align-items: center auto;
+            align-content: center auto;
+            justify-content: center auto;
+        }
+     }
+}

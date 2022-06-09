@@ -1,0 +1,19 @@
+.card{
+    background-color: whitesmoke;
+    margin-top: 2rem;
+    border: grey  solid 0.1rem; 
+    transition: all 500ms ease;
+    &:hover{
+        transform: scale(1.2);
+    }
+    .card-body{
+        .card-title{
+            font-family: $FontTit;
+        }
+        .card-text{
+            font-family: $FontText;
+            color:black;
+            align-content: center;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.contactMain{
+    display: flex;
+    flex-direction: row;
+    align-content:center;
+    justify-content:space-around;
+    .formulario{
+        width: 450px;
+        border: solid 2px black;
+        align-items: center;
+        align-content: center;
+        justify-content: space-around;
+    }
+    .mapa{
+        width: 40%;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
